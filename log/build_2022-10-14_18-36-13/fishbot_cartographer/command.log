@@ -1,0 +1,6 @@
+Invoking command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jingyan/fishbot_ws/cartographer_config -DCMAKE_INSTALL_PREFIX=/home/jingyan/fishbot_ws/install/fishbot_cartographer
+Invoked command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jingyan/fishbot_ws/cartographer_config -DCMAKE_INSTALL_PREFIX=/home/jingyan/fishbot_ws/install/fishbot_cartographer
+Invoking command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingyan/fishbot_ws/build/fishbot_cartographer -- -j16 -l16
+Invoked command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingyan/fishbot_ws/build/fishbot_cartographer -- -j16 -l16
+Invoking command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingyan/fishbot_ws/build/fishbot_cartographer
+Invoked command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingyan/fishbot_ws/build/fishbot_cartographer

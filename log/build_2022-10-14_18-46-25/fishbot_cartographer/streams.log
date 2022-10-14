@@ -1,0 +1,5 @@
+[0.033s] Invoking command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingyan/fishbot_ws/build/fishbot_cartographer -- -j16 -l16
+[0.058s] CMake Error: The source directory "/home/jingyan/fishbot_ws/cartographer_config" does not exist.
+[0.058s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.059s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.337s] Invoked command in '/home/jingyan/fishbot_ws/build/fishbot_cartographer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingyan/fishbot_ws/build/fishbot_cartographer -- -j16 -l16

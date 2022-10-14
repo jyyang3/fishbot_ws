@@ -5,6 +5,7 @@
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/launch/display_rviz2.launch.py
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/launch/gazebo.launch.py
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot_gazebo.urdf
+/home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot_base.urdf
 /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info/requires.txt
 /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info/zip-safe
 /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info/SOURCES.txt
