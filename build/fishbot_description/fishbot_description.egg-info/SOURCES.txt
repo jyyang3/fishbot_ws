@@ -16,3 +16,4 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/fishbot_base.urdf
 urdf/fishbot_gazebo.urdf
+world/fishbot.world
