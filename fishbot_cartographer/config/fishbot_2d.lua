@@ -50,7 +50,7 @@ TRAJECTORY_BUILDER_2D.use_imu_data = false
 -- false改成true,使用实时回环检测来进行前端的扫描匹配
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = true 
 -- 1.0改成0.1,提高对运动的敏感度
-TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(0.1)
+TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(1)
 
 -- 0.55改成0.65,Fast csm的最低分数，高于此分数才进行优化。
 POSE_GRAPH.constraint_builder.min_score = 0.65
