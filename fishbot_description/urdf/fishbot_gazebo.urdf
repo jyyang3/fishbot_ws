@@ -319,6 +319,7 @@
         </imu>
       </sensor>
     </gazebo>
+    
 
     <gazebo reference="laser_link">
       <sensor name="laser_sensor" type="ray">
