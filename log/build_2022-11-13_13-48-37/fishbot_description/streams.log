@@ -1,0 +1,25 @@
+[0.879s] Invoking command in '/home/jingyan/fishbot_ws/fishbot_description': PYTHONPATH=/home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/jingyan/fishbot_ws/build/fishbot_description/build install --prefix /home/jingyan/fishbot_ws/install/fishbot_description --record /home/jingyan/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed
+[1.081s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.081s]   warnings.warn(
+[1.081s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.081s]   warnings.warn(
+[1.140s] running egg_info
+[1.149s] writing ../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[1.149s] writing dependency_links to ../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[1.149s] writing requirements to ../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[1.150s] writing top-level names to ../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[1.168s] reading manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.170s] writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] running install
+[1.170s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.171s]   warnings.warn(
+[1.177s] running install_lib
+[1.186s] running install_data
+[1.195s] running install_egg_info
+[1.204s] removing '/home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info' (and everything under it)
+[1.205s] Copying ../build/fishbot_description/fishbot_description.egg-info to /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info
+[1.206s] running install_scripts
+[1.260s] writing list of installed files to '/home/jingyan/fishbot_ws/build/fishbot_description/install.log'
+[1.318s] Invoked command in '/home/jingyan/fishbot_ws/fishbot_description' returned '0': PYTHONPATH=/home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/jingyan/fishbot_ws/build/fishbot_description/build install --prefix /home/jingyan/fishbot_ws/install/fishbot_description --record /home/jingyan/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed

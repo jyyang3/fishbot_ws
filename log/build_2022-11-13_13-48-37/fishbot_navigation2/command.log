@@ -1,0 +1,2 @@
+Invoking command in '/home/jingyan/fishbot_ws/build/fishbot_navigation2': /usr/bin/cmake /home/jingyan/fishbot_ws/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jingyan/fishbot_ws/install/fishbot_navigation2
+Invoked command in '/home/jingyan/fishbot_ws/build/fishbot_navigation2' returned '1': /usr/bin/cmake /home/jingyan/fishbot_ws/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jingyan/fishbot_ws/install/fishbot_navigation2
