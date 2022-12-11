@@ -6,23 +6,23 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    # 定位到功能包的地址
+    # locate related package
     pkg_share = FindPackageShare(package='fishbot_cartographer').find('fishbot_cartographer')
     
-    #=====================运行节点需要的配置=======================================================================
-    # 是否使用仿真时间，我们用gazebo，这里设置成true
+    #=====================configuration for nodes=======================================================================
+    # use_sim_time = true for gazebo
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    # 地图的分辨率
+    # resolution for map
     resolution = LaunchConfiguration('resolution', default='0.05')
-    # 地图的发布周期
+    # publish_period for map
     publish_period_sec = LaunchConfiguration('publish_period_sec', default='1.0')
-    # 配置文件夹路径
+    # set path for directory
     configuration_directory = LaunchConfiguration('configuration_directory',default= os.path.join(pkg_share, 'config') )
-    # 配置文件
+    # configuration file
     configuration_basename = LaunchConfiguration('configuration_basename', default='fishbot_2d.lua')
 
     
-    #=====================声明三个节点，cartographer/occupancy_grid_node/rviz_node=================================
+    #=====================declare 3 nodes, cartographer/occupancy_grid_node/rviz_node=================================
     cartographer_node = Node(
         package='cartographer_ros',
         executable='cartographer_node',
@@ -48,7 +48,7 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
         output='screen')
 
-    #===============================================定义启动文件========================================================
+    #===============================================define launch file========================================================
     ld = LaunchDescription()
     ld.add_action(cartographer_node)
     ld.add_action(occupancy_grid_node)

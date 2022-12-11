@@ -16,7 +16,7 @@ def generate_launch_description():
     #=============================2.declare params, acquire configuration file======================================
     # use_sim_time = true for simulated environment.
     use_sim_time = LaunchConfiguration('use_sim_time', default='true') 
-    map_yaml_path = LaunchConfiguration('map',default=os.path.join(fishbot_navigation2_dir,'maps','fishbot_map.yaml'))
+    map_yaml_path = LaunchConfiguration('map',default=os.path.join(fishbot_navigation2_dir,'maps','square_map.yaml'))
     nav2_param_path = LaunchConfiguration('params_file',default=os.path.join(fishbot_navigation2_dir,'param','fishbot_nav2.yaml'))
     rviz_config_dir = os.path.join(nav2_bringup_dir,'rviz','nav2_default_view.rviz')
 

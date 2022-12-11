@@ -2,6 +2,8 @@
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+/home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/square_map.yaml
+/home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/square_map.pgm
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
 /home/jingyan/fishbot_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2

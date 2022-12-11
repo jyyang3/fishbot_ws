@@ -1,3 +1,4 @@
+/home/jingyan/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/handhold.lua
 /home/jingyan/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d.lua
 /home/jingyan/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/launch/cartographer.launch.py
 /home/jingyan/fishbot_ws/install/fishbot_cartographer/share/ament_index/resource_index/package_run_dependencies/fishbot_cartographer
