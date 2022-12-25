@@ -8,6 +8,7 @@
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot_base.urdf
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/world/Nov12.world
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/world/fishbot.world
+/home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/world/Nav2_test_world.world
 /home/jingyan/fishbot_ws/install/fishbot_description/share/fishbot_description/world/odom_test.world
 /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info/requires.txt
 /home/jingyan/fishbot_ws/install/fishbot_description/lib/python3.8/site-packages/fishbot_description-0.0.0-py3.8.egg-info/zip-safe

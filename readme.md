@@ -11,3 +11,4 @@ description:
 run 1 and 2 for mapping
 run 1 and 3 for navigation
 
+rosbag recording: ros2 bag record -o SLAMDATA /tf /odom /scan /tf_static
