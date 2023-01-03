@@ -8,7 +8,37 @@ description:
 2.node-fishbot_cartographer:SLAM node for the differential drive robot.
 3.node-fishbot_navigation2:navigation configuration for the differential drive robot.
 
-run 1 and 2 for mapping
-run 1 and 3 for navigation
+
+
+mapping:
+First terminal:
+1.cd fishbot_ws
+2.source install/setup.bash
+3.ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+Second terminal:
+1.cd fishbot_ws
+2.source install/setup.bash
+3.ros2 launch fishbot_description gazebo.launch.py
+
+Third terminal:
+1.cd fishbot_ws
+2.source install/setup.bash
+3.ros2 launch fishbot_cartographer cartographer.launch.py
+
+
+
+navigation:
+First terminal:
+1.cd fishbot_ws
+2.source install/setup.bash
+3.ros2 launch fishbot_description gazebo.launch.py
+
+Second terminal:
+1.cd fishbot_ws
+2.source install/setup.bash
+3.ros2 launch fishbot_navigation2 navigation2.launch.py
+
 
 rosbag recording: ros2 bag record -o SLAMDATA /tf /odom /scan /tf_static
+
